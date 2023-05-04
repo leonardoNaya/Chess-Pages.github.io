@@ -1,0 +1,71 @@
+#menu-bar {
+    display: none;
+}
+
+@font-face {
+    font-family: Storytime;
+    src: url(../font/Storytime.ttf)
+}
+
+body {
+    font-family: Storytime;
+    text-justify: justify;
+}
+
+header label {
+    float: right;
+    font-size: 28px;
+    margin-top: 2%;
+    width: 8%;
+    cursor: pointer;
+}
+
+.menu {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(51, 80, 51, 0.9);
+    transition: all 0.5s;
+    transform: translateX(100%);
+}
+
+.menu a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.menu a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+#menu-bar:checked~.menu {
+    transform: translateX(50%);
+}
+
+section {
+    width: 100%;
+}
+
+#fotomenu {
+    clear: both;
+    position: relative;
+    background-color: rgba(51, 80, 51, 0.9);
+}
+
+#fotomenu .menufoto {
+    width: 100%;
+    height: 100%;
+}
+
+#fotomenu h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-90%) translateY(-10%);
+    color: white;
+}

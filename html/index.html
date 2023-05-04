@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aprende Ajedrez</title>
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/fontello.css">
+    <link rel="stylesheet" href="fontello-b5197392/css/fontello.css">
+    <meta name="viwport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale1">
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <h2>Aprende a jugar Ajedrez</h2>
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+            <div class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="aperturas.html">Aperturas</a>
+                <a href="desarrollo.html">Desarrollo de partida</a>
+                <a href="elo.html">El Elo</a>
+                <a href="pogchamps.html">PogChamps</a>
+                <a href="magnus.html">El campeon del mundo</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="fotomenu">
+            <img class="menufoto" src="../img/tablero2.jpg">
+            <h2>Como se empieza a jugar una partida de ajedrez</h2>
+        </section>
+        <div class="contenido2">
+            <p>El jugador de las piezas blancas debe iniciar con el primer movimiento, luego de su movimiento es el turno del jugador de piezas negras. Cada casilla del tablero tiene un nombre propio dado por coordenadas, estas coordenadas empiezan de izquierda
+                a derecha de "A" a "H" y de abajo hacia arriba de "1" a "8"</p>
+            <center>
+                <p><img class="img" src="../img/tablero.jpg"></p>
+            </center>
+            <br>
+        </div>
+        <div class="contenido2">
+            <br>
+            <h2>Movimientos de las piezas</h2>
+            <p><b>Dama (Reina):</b> La dama puede moverse en cualquier direccion (Vertical, Horizontal, Diagonal). El numero de casillas que se puede mover solo está limitada por el tablero y sus piezas, es la pieza más importante debido a su alta movilidad
+            </p>
+            <center>
+                <p><img class="img" src="../img/reina.jpg"></p>
+            </center>
+            <br>
+            <p><b>Caballo:</b> Su movimiento es el más dificil de explicar, se basa en hacer una "L", es decir, se mueve 2 casillas en Horizontal o Vertical y otra casilla en la otra direccion (Vertical, Horizontal). Ej; si se mueve 2 casillas en horizontal,
+                la siguiente debe ser vertical y viceversa</p>
+            <center>
+                <p><img class="img" src="../img/caballo.jpg"></p>
+            </center>
+            <br><br>
+            <p><b>Torre:</b> La Torre solo puede mover en las direcciones horzontal y vertical (la cantidad de casillas está limitada por el tablero y sus piezas, también se incluye el movimiento Enroque con su Rey</p>
+            <center>
+                <p><img class="img" src="../img/torre.jpg"></p>
+            </center>
+            <br><br>
+            <p><b>Alfil:</b> El alfil solo puede mover en diagonal (la cantidad de casillas está limitada por el tablero y sus piezas) Hay 2 alfiles,uno en casillas blancas y otro en casillas negras</p>
+            <center>
+                <p><img class="img" src="../img/alfil.jpg"></p>
+            </center>
+            <br><br>
+            <p class="texto"><b>Rey:</b> El Rey puede moverse en cualquier dirreccion al igual que la dama pero la diferencia es que este solo puede moverse de a una casilla a la vez, tampoco puede moverse a una casilla que está controlada por una pieza enemiga, no puede
+                moverse a una casilla en donde moriría sin necesidad de que el rival mueva una pieza</p>
+            <center>
+                <p><img class="img" src="../img/rey.jpg"></p>
+            </center>
+            <br><br>
+            <center>
+                <p><img class="img" src="../img/rey2.jpg"></p>
+            </center>
+            <br><br>
+        </div>
+    </main>
+    <nav>
+        <div class="contenido2">
+            <h2>Reglas poco conocidas:</h2>
+            <br>
+            <h2>Doble Movimiento de Peón</h2>
+            <p>Si el peón no se ha movido durante el juego, al inicio puede escoger moverse una sola casilla en vez de dos. También se debe tener en cuenta que, aunque se haya movido una casilla como primer movimiento, ya no podrá realizar el movimiento
+                de salida doble.</p>
+            <center>
+                <p><img class="img" src="../img/peon.jpg"></p>
+            </center>
+            <br>
+            <h2>Enroque</h2>
+            <p>Consiste en mover simultaneamente el Rey y la Torre, en el caso de el Enroque Corto, el Rey se mueve a G1 y la torre de H1 a F1 y en el caso del Enroque Largo el Rey se mueve a C1 y la Torre de A1 a D1. Este movimiento solo es posible si el
+                Rey no esta bajo amenaza y si no se ha movido el Rey ni ninguna de las torres de sus respectivos Enroques</p>
+            <center>
+                <p><img class="img" src="../img/enroque.jpg"></p>
+            </center>
+            <br>
+            <center>
+                <p><img class="img" src="../img/enroquecompletado.jpg"></p>
+            </center>
+            <br><br>
+            <h2>Captura al paso</h2>
+            <p>La captura al paso (en francés: en passant) es un movimiento especial del juego de ajedrez en el que un peón captura a otro peón inmediatamente después de que este último se haya movido dos lugares adelante desde su posición inicial. En esta
+                situación, el peón que captura lo hace moviéndose al lugar en el que hubiera estado el peón del adversario si solo hubiera avanzado una casilla. La posición resultante es la misma que si el peón del primer jugador se hubiera movido solo
+                una casilla y el otro peón lo hubiera capturado normalmente. La captura al paso solo es posible en dicha situación.</p>
+            <center>
+                <p><video class="vid" src="../vid/captura-al-paso.mp4" controls></p></center>
+                <br>
+            </div>
+        </nav>
+	</body>
+</html>
